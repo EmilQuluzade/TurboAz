@@ -1,0 +1,398 @@
+.navbar {
+    background-color: rgb(202,16,22);
+    padding-left: 50px !important;
+}
+
+.navbar-logo {
+    width: 150px;
+    padding-right: 20px;
+}
+
+.signupbtn {
+    margin-left: 10px;
+}
+
+.footer-top {
+    background-color: rgb(202,16,22) !important;
+}
+
+footer {
+    color: #fff;
+}
+
+ul {
+    padding: 0px;
+}
+
+ol, ul {
+    margin-bottom: 0px;
+}
+
+.social-icon {
+    padding: 0;
+    margin-bottom: 0px;
+    float: right;
+}
+
+    .social-icon li {
+        list-style: none;
+        display: inline-block;
+    }
+
+        .social-icon li i {
+            font-size: 14px;
+            color: #262725;
+            border: solid 2px #ffffff;
+            height: 31px;
+            width: 31px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 100px;
+            line-height: 27px;
+            margin-right: 15px;
+            transition: 1s;
+            background: #fff;
+        }
+
+            .social-icon li i:hover {
+                border: solid 2px #262725;
+                color: #ffffff;
+                background: #262725;
+            }
+
+.phone-no i {
+    position: relative;
+    margin-right: 14px;
+    font-size: 43px;
+    top: 5px;
+}
+
+.phone-no {
+    margin-top: -22px;
+    text-align: right;
+}
+
+.footer-day-time {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #7a6f6f;
+    padding-top: 14px;
+    margin-bottom: 55px;
+}
+
+    .footer-day-time ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        .footer-day-time ul li:last-child {
+            margin-right: 0px;
+        }
+
+.phone-no a {
+    color: #fff;
+    font-family: PlayfairDisplay-Black;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.footer-top {
+    background: #2f2f2f;
+    padding: 50px 0 50px;
+}
+
+    .footer-top h4 {
+        font-size: 19px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .footer-top p {
+        font-size: 13px;
+        line-height: 2;
+    }
+
+footer p {
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 32px;
+}
+
+.address1 li {
+    list-style: none;
+    position: relative;
+    padding: 0px 0 14px 34px;
+    line-height: 26px;
+}
+
+ul.address1 span {
+    position: absolute;
+    width: 40px;
+    max-width: 40px;
+    left: 0;
+}
+
+.address1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.address1 i {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+}
+
+    ul.address1 i.fa-envelope {
+        font-size: 18px;
+        top: 4px;
+    }
+
+footer ul.social-icon {
+    float: left;
+}
+
+footer .social-icon li i:hover {
+    background: #4b8800;
+    border-color: #4b8800;
+}
+
+.footer-bottom {
+    background: #4b8800;
+    padding: 10px 0px;
+}
+
+    .footer-bottom ul li {
+        display: inline;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+
+        .footer-bottom ul li a {
+            color: #fff;
+        }
+
+    .footer-bottom ul {
+        float: right;
+    }
+
+        .footer-bottom ul li:last-child {
+            margin-right: 0;
+        }
+
+.copyright {
+    font-size: 18px;
+}
+
+.veen {
+    width: 70%;
+    margin: 100px auto;
+    background: rgba(255,255,255,.5);
+    background-color: #ff4931;
+    min-height: 400px;
+    display: table;
+    position: relative;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+    .veen > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+    }
+
+    .veen button {
+        background: transparent;
+        /* background-image: linear-gradient(90deg, #e0b722, #ff4931); */
+        display: inline-block;
+        padding: 10px 30px;
+        border: 3px solid #fff;
+        border-radius: 50px;
+        background-clip: padding-box;
+        position: relative;
+        color: #FFF;
+        /* box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28); */
+        transition: all .25s;
+    }
+
+        .veen button.dark {
+            border-color: #ff4931;
+            background: #ff4931;
+        }
+
+    .veen .move button.dark {
+        border-color: #e0b722;
+        background: #e0b722;
+    }
+
+    .veen .splits p {
+        font-size: 18px;
+    }
+
+    .veen button:active {
+        box-shadow: none;
+    }
+
+    .veen button:focus {
+        outline: none;
+    }
+
+    .veen > .wrapper {
+        position: absolute;
+        width: 40%;
+        height: 120%;
+        top: -10%;
+        left: 5%;
+        background: #fff;
+        box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+        transition: all .5s;
+        color: #303030;
+        overflow: hidden;
+    }
+
+    .veen .wrapper > form {
+        padding: 15px 30px 30px;
+        width: 100%;
+        transition: all .5s;
+        background: #fff;
+        width: 100%;
+    }
+
+        .veen .wrapper > form:focus {
+            outline: none;
+        }
+
+    .veen .wrapper #login {
+        padding-top: 20%;
+        visibility: visible;
+    }
+
+    .veen .wrapper #register {
+        transform: translateY(-80%) translateX(100%);
+        visibility: hidden;
+    }
+
+    .veen .wrapper.move #register {
+        transform: translateY(-80%) translateX(0%);
+        visibility: visible;
+    }
+
+    .veen .wrapper.move #login {
+        transform: translateX(-100%);
+        visibility: hidden;
+    }
+
+    .veen .wrapper > form > div {
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .veen .wrapper label {
+        position: absolute;
+        top: -7px;
+        font-size: 12px;
+        white-space: nowrap;
+        background: #fff;
+        text-align: left;
+        left: 15px;
+        padding: 0 5px;
+        color: #999;
+        pointer-events: none;
+    }
+
+    .veen .wrapper h3 {
+        margin-bottom: 25px;
+    }
+
+    .veen .wrapper input {
+        height: 40px;
+        padding: 5px 15px;
+        width: 100%;
+        border: solid 1px #999;
+    }
+
+    .veen .wrapper input {
+        height: 40px;
+        padding: 5px 15px;
+        width: 100%;
+        border: solid 1px #999;
+    }
+
+        .veen .wrapper input:focus {
+            outline: none;
+            border-color: #ff4931;
+        }
+
+    .veen > .wrapper.move {
+        left: 45%;
+    }
+
+        .veen > .wrapper.move input:focus {
+            border-color: #e0b722;
+        }
+
+@media (max-width: 767px) {
+    .veen {
+        padding: 5px;
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+
+        .veen > .wrapper {
+            position: relative;
+            height: auto;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .veen > div {
+            display: inline-block;
+        }
+
+    .splits {
+        width: 50%;
+        background: #fff;
+        float: left;
+    }
+
+        .splits button {
+            width: 100%;
+            border-radius: 0;
+            background: #505050;
+            border: 0;
+            opacity: .7;
+        }
+
+            .splits button.active {
+                opacity: 1;
+            }
+
+            .splits button.active {
+                opacity: 1;
+                background: #ff4931;
+            }
+
+        .splits.rgstr-btn button.active {
+            background: #e0b722;
+        }
+
+        .splits p {
+            display: none;
+        }
+
+    .veen > .wrapper.move {
+        left: 0%;
+    }
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    box-shadow: inset 0 0 0 50px #fff
+}
